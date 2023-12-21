@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background-color: #ffffff;
+}
+
+.gambar {
+  width: 10%;
+}
+
+.navbar a {
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #000000;
+  background: #f4ce15 ;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 150px;
+  color: #000000;
+}
+.kotak{
+  background-color: #f4ce15;
+  width: 100px;
+  height: 2px;
+  align-items: center;
+  justify-content: center;
+}
+
+.teks1{
+  background-color: #e9e7e8;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+p{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.home-icon {
+  position: relative;
+  bottom: 40px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 14%;
+  padding-left: 10%;
+}
+
+.home-icon a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  font-size: 20px;
+  color: grey;
+  text-decoration: none;
+}
